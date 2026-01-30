@@ -24,7 +24,7 @@ The model was trained on a dataset of 100,000 patients and achieved the followin
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/diabetes-prediction-app.git](https://github.com/your-username/diabetes-prediction-app.git)
+    git clone [https://github.com/norkaops/diabetes-prediction-app.git](https://github.com/your-username/diabetes-prediction-app.git)
     cd diabetes-prediction-app
     ```
 
