@@ -11,7 +11,7 @@ A comprehensive Machine Learning application built with **Streamlit** and **XGBo
     * **Global Importance:** See which factors (e.g., HbA1c, Glucose) matter most across the population.
 * **Interactive Simulation:** "What-If" analysis slider to see how changing BMI affects risk in real-time.
 * **Clinical Support:** Automatically generates tailored health suggestions based on medical guidelines.
-* **Crash-Proof Architecture:** Optimized to run smoothly on lower-memory machines by using native C++ extraction for plots.
+
 
 ## 📊 Model Performance
 
