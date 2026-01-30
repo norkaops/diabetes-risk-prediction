@@ -19,6 +19,14 @@ The model was trained on a dataset of 100,000 patients and achieved the followin
 * **Accuracy:** 93.67%
 * **ROC-AUC Score:** 0.9758
 * **Recall (Sensitivity):** High recall optimization to minimize missed diagnoses.
+*  precision    recall  f1-score   support
+
+           0       0.98      0.95      0.96     17534
+           1       0.60      0.84      0.70      1696
+
+    accuracy                           0.94     19230
+   macro avg       0.79      0.89      0.83     19230
+weighted avg       0.95      0.94      0.94     19230
 
 ## 🛠️ Installation
 
@@ -43,6 +51,20 @@ The model was trained on a dataset of 100,000 patients and achieved the followin
 * `app.py`: The main Streamlit dashboard.
 * `models/`: Contains the trained XGBoost model (`xgb_model.pkl`) and preprocessing pipeline.
 * `data/`: Contains the dataset used for generating diagnostic plots.
+* diabetes-prediction-app/
+│
+├── app.py                  # The main Streamlit application (The big code I gave you)
+├── requirements.txt        # List of libraries needed
+├── README.md               # The documentation (I will write this for you below)
+├── .gitignore              # Tells git what NOT to upload
+│
+├── models/                 # Folder containing your trained models
+│   ├── xgb_model.pkl
+│   ├── preprocessor.pkl
+│   └── best_threshold.txt
+│
+└── data/                   # Folder containing the dataset
+    └── diabetes_prediction_dataset.csv
 
 ## 🩺 Medical Disclaimer
 
